@@ -1,0 +1,27 @@
+.headerContainer {
+    background-color: var(--gray-700);
+
+    height: 12.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rocket {
+    margin-right: 0.75rem;
+}
+
+.textTo {
+    color: var(--blue);
+}
+
+.textDo {
+    color: var(--purple-dark);
+}
+
+.textTodoContainer {
+    line-height: 3rem;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
