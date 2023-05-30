@@ -17,8 +17,10 @@
 }
 
 :focus {
+    /* background-color: red !important; */
     outline: transparent !important;
     box-shadow: 0 0 0 2px var(--purple-dark);
+    border: 1px solid var(--purple-dark);
 }
 
 * {
