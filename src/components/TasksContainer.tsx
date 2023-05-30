@@ -13,8 +13,6 @@ export function TasksContainer({tasks, onDeleteTask, onChangeTask}: TasksContain
     const numberOfTasks = tasks.length;
     const numberOfTasksDone = tasks.reduce((acc, task) => task.completed? acc + 1: acc, 0);
 
-
-
     return (
         <div className={styles.tasksContainer}>
             <header className={styles.headerContainer}>

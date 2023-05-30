@@ -13,8 +13,8 @@ function App() {
     setTasks([...tasks, task]);
   }
 
-  function onDeleteTask(taskContent: string) {
-    const filteredTasks = tasks.filter((task) => task.content !== taskContent);
+  function onDeleteTask(id: string) {
+    const filteredTasks = tasks.filter((task) => task.id !== id);
     setTasks(filteredTasks);
   }
 
